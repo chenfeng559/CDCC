@@ -1,0 +1,12 @@
+algorithm: algorithm.CDCC.model.model
+data_dir: datasets/ETTm1/ETTm1.csv
+out_path: log
+window_size: [24, 1]
+
+algorithm_parameters:
+  device: cuda
+  epochs: 300
+  lr: 0.05
+  num_layers: 3
+  dropout_rate: 0.5
+  batch_size: 256

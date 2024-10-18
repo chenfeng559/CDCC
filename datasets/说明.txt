@@ -1,0 +1,29 @@
+classification dataset：
+
+SAD：10 个阿拉伯数字的声音，由 88 个说话者说出。该数据集有 8800 个样本，存储为 13 个梅尔频率倒谱系数 (MFCC)。
+选择长度在 20 到 50 之间的序列。小于 50 的序列用零填充，使其长度为 50。
+
+AWR:275×144×9 25个类
+CharacterTrajectories:1422×182×3 20个类
+Epilepsy：137×206×3 4个类
+FaceDetection:
+FingerMovements：316×50×28 2个类
+Handwriting:150×152×3 26个类
+NATOPS:180×51×24 6个类
+SAD:6599×93×13 10个类
+
+
+real dataset：
+SWaT_train：99360×51
+SWaT_test: 89984×51 （labeled）
+
+WADI_train：241921×123 
+WADI_test：34560×123 （labeled）
+
+MSL_train:58317×55
+MSL_test:58317×55
+
+SMAP:25
+SMD:38
+PSM:25
+

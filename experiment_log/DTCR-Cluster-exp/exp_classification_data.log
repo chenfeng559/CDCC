@@ -1,0 +1,15 @@
+[2024-08-29 02:56:13][train_DTCR.py][INFO] Testing DTCR Model
+[2024-08-29 02:56:19][utils_DTCR.py][INFO] Cluster 0 bincount [7 8 9]
+[2024-08-29 02:56:19][utils_DTCR.py][INFO] Cluster 5 bincount [ 6 10  9]
+[2024-08-29 02:56:19][utils_DTCR.py][INFO] Cluster 2 bincount [ 0  0  0 10 15  9]
+[2024-08-29 02:56:19][utils_DTCR.py][INFO] Cluster 4 bincount [0 0 0 5 6 5]
+[2024-08-29 02:56:19][utils_DTCR.py][INFO] Cluster 3 bincount [0 0 1]
+[2024-08-29 02:56:19][utils_DTCR.py][INFO] Cluster 1 bincount [ 0  0  0  0  0  0  7 13 15  8 14 13 10 14 18  8]
+[2024-08-29 02:56:19][utils_DTCR.py][INFO] acc:0.2590909090909091  f1:0.12646114838986428
+[2024-08-29 02:56:19][train_DTCR.py][INFO] Silhouette_Coefficient:0.580
+[2024-08-29 02:56:19][train_DTCR.py][INFO] calinski_harabasz_score:636.113
+[2024-08-29 02:56:19][train_DTCR.py][INFO] davies_bouldin_score:1.442
+[2024-08-29 02:56:20][train_DTCR.py][INFO] --dataset_name: SAD+NATOPS, --path_weights: model_weights_DTCR/SAD+NATOPS/DTCR.pth, --dataset_num: 2, --cluster_num: 6, --batch_first: True, --drop_last: True, 
+[2024-08-29 02:56:20][train_DTCR.py][INFO] --ano_sample_rate: 1, --ano_type_num: 6, --ano_col_rate: 0.3, --ano_time_rate_max: 1, --ano_time_rate_min: 0.5, 
+[2024-08-29 02:56:20][train_DTCR.py][INFO] --hidden_structs: [100, 50, 50], --dilations: [1, 2, 4], --inchannels: [24, 13], --cell_type: GRU, --input_embeding_units: 64, --gamma1: 0.05, --gamma2: 0, --gamma3: 1, 
+[2024-08-29 02:56:20][train_DTCR.py][INFO] --batch_size: 16, --max_epochs: 50, --max_patience: 5, --lr: 0.01, --momentum: 0.9, 

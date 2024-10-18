@@ -1,0 +1,9 @@
+train文件用于分类数据集
+train_real_data文件用于异常数据集
+load_data_new用于加载分类数据集
+load_data_np用于加载异常数据集
+
+train文件与train_real_data文件基本一致，只是数据读取部分不同，train_real_data的注释可以参考train文件中同名函数
+
+DTC模型文件：TAE.py  Cluster_layer.py 
+DTCR模型文件：DTCR/drnn.py  DTCR/Model_DTCR.py
